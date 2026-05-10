@@ -1,6 +1,6 @@
 import bougainvilleaImage from "../assets/plants/bougainvillea.jpg";
 import plumbagoImage from "../assets/plants/plumbago.jpg";
-import snakePlantImage from "../assets/plants/snake-plant.jpg";
+import snakePlantImage from "../assets/plants/snake-plant.png";
 
 const commonsImage = (fileName) =>
   `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(fileName)}?width=1000`;
