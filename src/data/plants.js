@@ -1,9 +1,14 @@
 import bougainvilleaImage from "../assets/plants/bougainvillea.jpg";
+import cliviaImage from "../assets/plants/clivia.jpg";
+import daphneImage from "../assets/plants/daphne.jpg";
+import kalanchoeImage from "../assets/plants/kalanchoe.jpg";
+import moneyTreeImage from "../assets/plants/money-tree.jpg";
+import okraImage from "../assets/plants/okra.jpg";
+import peaceLilyImage from "../assets/plants/peace-lily.jpg";
+import pepperImage from "../assets/plants/pepper.jpg";
 import plumbagoImage from "../assets/plants/plumbago.jpg";
+import plectranthusImage from "../assets/plants/plectranthus.jpg";
 import snakePlantImage from "../assets/plants/snake-plant.png";
-
-const commonsImage = (fileName) =>
-  `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(fileName)}?width=1000`;
 
 export const plants = [
   {
@@ -39,7 +44,7 @@ export const plants = [
     name: "君子兰",
     latin: "Clivia",
     imageTone: "linear-gradient(135deg, #f4d1a4, #587d5b)",
-    image: commonsImage("Clivia miniata.jpg"),
+    image: cliviaImage,
     light: "明亮散射光，忌夏日直晒",
     water: "保持微润，别让叶心积水",
     fear: "怕烂根、夹箭和高温闷湿",
@@ -53,7 +58,7 @@ export const plants = [
     name: "瑞香",
     latin: "Daphne odora",
     imageTone: "linear-gradient(135deg, #ead8e7, #7d8e68)",
-    image: commonsImage("White Daphne Odora.jpg"),
+    image: daphneImage,
     light: "喜欢柔和光，怕夏天暴晒",
     water: "盆土微润即可，忌积水",
     fear: "怕闷热、积水和频繁挪盆",
@@ -67,7 +72,7 @@ export const plants = [
     name: "一帆风顺",
     latin: "Peace Lily",
     imageTone: "linear-gradient(135deg, #f3f1df, #6f9273)",
-    image: commonsImage("Peace Lily (405647932).jpg"),
+    image: peaceLilyImage,
     light: "耐阴，喜欢明亮散射光",
     water: "叶子微垂再浇，浇透后沥干",
     fear: "怕暴晒，也怕盆底一直泡水",
@@ -81,7 +86,7 @@ export const plants = [
     name: "碰碰香",
     latin: "Plectranthus",
     imageTone: "linear-gradient(135deg, #dce8ca, #8fad76)",
-    image: commonsImage("Plectranthus amboinicus (2).JPG"),
+    image: plectranthusImage,
     light: "喜欢阳光，也能适应半日照",
     water: "偏耐旱，土干再浇",
     fear: "怕水多徒长和通风差",
@@ -95,7 +100,7 @@ export const plants = [
     name: "长寿花",
     latin: "Kalanchoe",
     imageTone: "linear-gradient(135deg, #f3c8b4, #779b6a)",
-    image: commonsImage("Kalanchoe blossfeldiana.JPG"),
+    image: kalanchoeImage,
     light: "喜欢充足柔光，冬春可多晒",
     water: "肉质叶耐旱，干了再浇",
     fear: "怕夏季高温闷湿和积水",
@@ -123,7 +128,7 @@ export const plants = [
     name: "发财树",
     latin: "Pachira aquatica",
     imageTone: "linear-gradient(135deg, #d9dfbf, #6f8160)",
-    image: commonsImage("A potted Pachira aquatica.jpg"),
+    image: moneyTreeImage,
     light: "明亮散射光，避免长时间暴晒",
     water: "非常怕水多，盆土干大半再浇",
     fear: "怕烂根、低温和突然冷风",
@@ -137,7 +142,7 @@ export const plants = [
     name: "辣椒",
     latin: "Capsicum",
     imageTone: "linear-gradient(135deg, #f0d6b4, #b84635)",
-    image: commonsImage("Capsicum annuum fruits IMGP0049.jpg"),
+    image: pepperImage,
     light: "喜足光，越晒结果越稳",
     water: "结果期需水稳定，不要忽干忽湿",
     fear: "怕缺光、蚜虫和盆土过湿",
@@ -151,7 +156,7 @@ export const plants = [
     name: "秋葵",
     latin: "Okra",
     imageTone: "linear-gradient(135deg, #efe0b6, #7f9460)",
-    image: commonsImage("Okra plant.jpg"),
+    image: okraImage,
     light: "喜热喜晒",
     water: "生长期保持土壤不过分干",
     fear: "怕低温、缺光和盆太小",
